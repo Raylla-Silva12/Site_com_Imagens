@@ -30,41 +30,13 @@ img {
     border-radius: 15px;
 }
 
-.logo {
-    float: right;
-    margin-right: 1%;
-}
-
-h4 {
-    color: rgb(123, 27, 212);
-}
-
-.textimg {
-    color: white;
-    font-size: 13px;
-    margin: 8px;
-}
-
 .indexImgs {
     height: 340px;
     width: 230px;
 }
 
-.all-img {
-    margin-top: 7em;
-}
-
-.img-colunas {
-    margin-left: 2.5em;
-    margin-bottom: 2.5em;
-}
-
-.imglink {
-    display: inline-block;
-    margin-right: 2em;
-}
-
 .flip-container {
+    cursor: pointer;
     display: inline-flex;
     height: 340px;
     width: 230px;
@@ -99,13 +71,14 @@ h4 {
 .back {
     transform: rotateY(180deg);
     background-image: linear-gradient(#521aee, #e222a9);
-    border: solid thin rgb(48, 7, 233);
+    border: solid thin rgb(225, 235, 245);
     border-radius: 15px;
     overflow: hidden;
 }
 
-h5 {
-    font-size: 16px;
+.ultimas-linhas {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .div-2 {
@@ -117,7 +90,7 @@ h5 {
     border-radius: 5px;
     padding: 30px 20px 39px 20px;
     color: aliceblue;
-    background-image: linear-gradient(15deg, black, rgb(0, 0, 0), rgb(20, 20, 20), rgb(70, 71, 75), rgb(130, 131, 134));
+    background-image: linear-gradient(15deg, black, rgb(0, 0, 0), rgb(0, 0, 0), rgb(39, 41, 48), rgb(79, 81, 87), rgb(130, 131, 134));
 }
 
 footer {
@@ -130,9 +103,4 @@ footer {
     width: 100vw;
 }
 
-#sombra {
-    position: fixed;
-    background-color: blue;
-    width: 100vw;
-    height: 5vh;
-}
+
